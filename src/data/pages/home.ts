@@ -10,62 +10,64 @@ export const homePage: PageContent = {
   url: "/",
   pageType: "home",
   presentation: { shell: "home" },
-  h1: `${site.gameName} Guide Hub`,
-  seoTitle: `${site.gameName} Guide Hub | Wiki, Guides, Release Date, FAQ`,
-  metaDescription:
-    "A clean guide hub template with wiki notes, starter guides, release information, FAQs, and trust pages for a game攻略站 launch.",
-  summary:
-    "Start here for the wiki index, guide categories, launch information, and frequently asked questions.",
+  h1: "False Hero game: a new soulslike adventure on Steam",
+  seoTitle: "False Hero game soulslike adventure by Torchlight Games on Steam",
+  metaDescription: "False Hero game is the new soulslike adventure from Torchlight Games and publisher Ytopia on Steam. Planned release is September 22, 2026 with AppID 2538870.",
+  summary: "Confirm False Hero is the new soulslike adventure from Torchlight Games and Ytopia, and enter the Steam store page",
   hero: {
-    eyebrow: "Unofficial guide hub",
-    subtitle: site.tagline,
-    ctas: [
-      { label: "Open Wiki", href: "/wiki" },
-      { label: "Browse Guides", href: "/guides" },
-    ],
+    eyebrow: "Homepage",
+    subtitle: "Confirm False Hero is the new soulslike adventure from Torchlight Games and Ytopia, and enter the Steam store page",
+    ctas: [{"label":"- False Hero release date","href":"/release-date/"},{"label":"- False Hero Steam store page","href":"/steam/"},{"label":"- False Hero PC system requirements","href":"/system-requirements/"}],
   },
-  quickAnswer:
-    "This homepage acts as the central guide hub for the selected game, linking users to wiki notes, guides, release information, and FAQs.",
+  quickAnswer: "False Hero game is the new soulslike adventure from developer Torchlight Games and publisher Ytopia, listed on Steam under AppID 2538870 with a planned release date of September 22, 2026. The Steam description confirms a fast-paced loop that lets you steal your enemies' attacks and chain them into deadly combos while exploring a corrupted Land of the Gods and facing challenging boss fights. Players choose between fighting for the Gods or becoming an apostle of Death.",
   keyFacts: [
-    { label: "Site type", value: "Unofficial guide hub" },
-    { label: "V1 page set", value: "5 content pages + 4 trust pages" },
-    { label: "Source rule", value: "Official facts only before launch" },
+    { label: "Primary keyword", value: "False Hero game" },
+    { label: "Source", value: "False Hero on Steam (AppID 2538870)" },
+    { label: "Source", value: "False Hero Steam Community Hub" },
+    { label: "Fact boundary", value: "Current-game facts about the title come from the Steam store page for AppID 2538870 and are authoritative as of 2026-…" }
   ],
   modules: [
     {
-      id: "start-here",
+      id: "-section-1",
       type: "prose",
-      heading: "Start here",
-      body:
-        "Use the wiki page for core game facts, the guides page for player-facing help, and the release page for official launch timing. Replace each placeholder with verified information before publishing.",
-      links: [
-        { label: "Wiki", href: "/wiki", description: "Core facts and game systems." },
-        { label: "Guides", href: "/guides", description: "Starter guide categories." },
-        { label: "Release Date", href: "/release-date", description: "Official launch timing." },
-      ],
+      heading: "Quick Answer",
+      body: "False Hero game is the new soulslike adventure from developer Torchlight Games and publisher Ytopia, listed on Steam under AppID 2538870 with a planned release date of September 22, 2026. The Steam description confirms a fast-paced loop that lets you steal your enemies' attacks and chain them into deadly combos while exploring a corrupted Land of the Gods and facing challenging boss fights. Players choose between fighting for the Gods or becoming an apostle of Death.\n\n## Wha",
     },
     {
-      id: "safe-launch",
+      id: "-section-2",
       type: "prose",
-      heading: "Safe launch baseline",
-      body:
-        "The template keeps the first version small so the launch workflow can verify routing, metadata, sitemap, robots, analytics, and Search Console submission before deeper content work begins.",
+      heading: "What is the False Hero game about?",
+      body: "The False Hero game is a fast-paced soulslike adventure built around a steal-and-chain combat loop. Instead of learning a fixed moveset, you take enemy attacks mid-fight and weave them into combos that match your reading of the encounter. The setting is the corrupted Land of the",
     },
     {
-      id: "example-entries",
-      type: "entity-grid",
-      heading: "Guide Entry Points",
-      items: [
-        { title: "Wiki", summary: "Core facts and game systems.", href: "/wiki" },
-        { title: "Guides", summary: "Starter guide categories.", href: "/guides" },
-        { title: "Release Date", summary: "Official launch timing.", href: "/release-date" },
-        { title: "FAQ", summary: "Short answers and source context.", href: "/faq" },
-      ],
+      id: "-section-3",
+      type: "prose",
+      heading: "When does the False Hero game launch and on which platforms?",
+      body: "",
     },
+    {
+      id: "-section-4",
+      type: "prose",
+      heading: "Who is developing and publishing the False Hero game?",
+      body: "",
+    },
+    {
+      id: "-section-5",
+      type: "prose",
+      heading: "What should you check before launching the False Hero game?",
+      body: "Before you boot the title on launch day, confirm your PC matches the published minimum and recommended specs, that your Steam client is up to date, and that your wishlist is active so you receive the standard launch notifications. The game lists English, German, French, Italian, Spanish (Spain and Latin America), Japanese, Korean, Portuguese (Brazil), Russian, and Simplified Chinese across Interface, Full Audio, and Subtitles. Headphones are recommended because the difficulty tag and boss-fight focus lean on audio cues for parry and dodge timing.",
+    },
+    {
+      id: "-sources",
+      type: "prose",
+      heading: "Sources",
+      body: "Each fact in this page is sourced from the references below. Cross-check the Steam store page for any updates.",
+      links: [{"label":"False Hero on Steam (AppID 2538870)","href":"https://store.steampowered.com/app/2538870","description":"Confirms AppID 2538870, developer Torchlight Games, publisher Ytopia, planned release September 22, 2026, Steam tags, supported languages list, system requirements block, and short description."},{"label":"False Hero Steam Community Hub","href":"https://store.steampowered.com/app/2538870/community/","description":"Surfaces official announcements, launch-day discussion, and developer posts for the False Hero game."},{"label":"False Hero on SteamDB","href":"https://steamdb.info/app/2538870/","description":"Cross-checks AppID 2538870 metadata, supported languages, and tag history for the False Hero game."},{"label":"game-check Build now brief: False Hero","href":"https://github.com/NING17-svg/game-workflow/blob/main/game-intelligence/handoffs/game-check/build-now/false-hero.md","description":"Records Popular Coming Soon rank 34, 14-day rank rise 11, and the September 22, 2026 launch window for the False Hero game."}],
+    }
   ],
-  faqIds: ["what-is-this-site", "is-official"],
-  relatedPageIds: ["wiki", "guides", "release-date", "faq"],
+  faqIds: ["faq-home-1", "faq-home-2", "faq-home-3", "faq-home-4", "faq-home-5"],
+  relatedPageIds: ["fixed-release-date-status-en-US", "fixed-steam-store-en-US", "fixed-system-requirements-en-US", "fixed-platforms-en-US", "fixed-gameplay-en-US", "fixed-characters-en-US", "wiki", "fixed-review-en-US", "fixed-demo-en-US", "guides", "fixed-reddit-en-US"],
   schemaTypes: ["WebSite", "CollectionPage", "FAQPage"],
-  sourceStatus: "internal",
-  lastReviewed: "2026-06-18",
+  sourceStatus: "official",
+  lastReviewed: "2026-09-22",
 };
