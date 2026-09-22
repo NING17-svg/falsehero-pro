@@ -14,6 +14,8 @@ hreflang, sitemap, and route-manifest validation.
 |---|---|---|---|---|---|---|---|
 | `/` | `src/data/pages/home.ts` | Landing | Template Game guide | Find the best entry point | Open Wiki / Browse Guides | Hub | Replace with the configured game's main hub intent. |
 | `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Template Game wiki | Understand confirmed facts | Guides / FAQ | Hub | Keep official fact base and source context here. |
+| `/walkthrough` | `src/data/pages/walkthrough.ts` | Guide | False Hero Temple Walls progression | Get past the Temple Walls Bloodspring, large-door split, Plant Knight, and Death-touched door | Walkthrough / Gameplay | Hub | First sub-section is developer-anchored Temple Walls progression; later regions stay unconfirmed. |
+| `/gameplay` | `src/data/pages/gameplay.ts` | Guide | False Hero gameplay overview | Understand the steal-and-chain combat loop | Walkthrough / Wiki | Hub | Surfaces a first-30-minute pointer to the Temple Walls walkthrough for new launch-window players. |
 | `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
 | `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
 | `/faq` | `src/data/pages/site-pages.ts` | Guide | Template Game FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
@@ -32,6 +34,7 @@ hreflang, sitemap, and route-manifest validation.
 ## Content Clusters
 
 - Launch facts: `/release-date`, `/faq`
+- Early-area progression: `/walkthrough`, `/gameplay` (Temple Walls Bloodspring, large-door split, Plant Knight, Death-touched door)
 - Official facts and safe guide structure: `/wiki`, `/guides`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 
@@ -42,6 +45,8 @@ hreflang, sitemap, and route-manifest validation.
 - Guides should link to wiki and release pages.
 - Release Date should link to FAQ and official sources.
 - FAQ should include all current high-demand answer pages.
+- Walkthrough should link to the gameplay overview and the Steam Community Hub source.
+- Gameplay should link to the walkthrough for the first 30 minutes of progression.
 
 ## Open Questions
 
