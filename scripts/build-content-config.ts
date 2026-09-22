@@ -238,14 +238,18 @@ function buildPageTs(context: PageContext, allPagesByUrl: Map<string, PageContex
 
   const sourceStatus = "official";
 
+  const cleanSources = context.sources.filter(
+    (source) => !/game-workflow|build\s+now/i.test(source.label) && !/game-workflow|build\s+now/i.test(source.href),
+  );
+  const cleanFacts = context.facts.filter(
+    (fact) => !/game-workflow|build\s+now/i.test(fact),
+  );
+
   const keyFacts: Array<{ label: string; value: string }> = [];
-  if (primaryKeyword) {
-    keyFacts.push({ label: "Primary keyword", value: primaryKeyword });
-  }
-  for (const source of context.sources.slice(0, 2)) {
+  for (const source of cleanSources.slice(0, 2)) {
     keyFacts.push({ label: "Source", value: source.label });
   }
-  for (const fact of context.facts.slice(0, 1)) {
+  for (const fact of cleanFacts.slice(0, 1)) {
     keyFacts.push({ label: "Fact boundary", value: fact.length > 120 ? fact.slice(0, 117) + "…" : fact });
   }
   if (keyFacts.length === 0) {
@@ -264,8 +268,8 @@ function buildPageTs(context: PageContext, allPagesByUrl: Map<string, PageContex
       body: ${JSON.stringify(text)},
     }`);
   }
-  if (context.sources.length > 0) {
-    const sourceLinks = context.sources.map((source) => ({
+  if (cleanSources.length > 0) {
+    const sourceLinks = cleanSources.map((source) => ({
       label: source.label,
       href: source.href,
       description: source.description,

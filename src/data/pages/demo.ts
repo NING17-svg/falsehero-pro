@@ -21,7 +21,6 @@ export const demoPage: PageContent = {
   },
   quickAnswer: "A False Hero demo or trial download is not announced as of 2026-09-22. The Steam listing for AppID 2538870 does not host a demo build, a playtest, or a time-limited trial, and Ytopia has not published a separate demo storefront. Players who want to confirm the latest demo status should refresh the Steam store page and the Steam Community Hub announcements tab, because any future trial build will land there first.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero demo" },
     { label: "Fact boundary", value: "Current-game fact: A False Hero demo or trial download is not announced as of 2026-09-22. The Steam listing for AppID…" }
   ],
   modules: [

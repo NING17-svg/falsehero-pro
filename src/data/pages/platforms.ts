@@ -21,7 +21,6 @@ export const platformsPage: PageContent = {
   },
   quickAnswer: "The platform list is narrow as of 2026-09-22: Steam PC on Windows 10 64-bit and Windows 11 64-bit is the only confirmed entry, under AppID 2538870. PS5, Xbox, Steam Deck verification, Linux, macOS, and Android releases have not been announced, even though autocomplete results often pair False Hero platforms with PS5 or Android searches. Treat Steam PC as the only anchor until an official channel adds a new entry.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero platforms" },
     { label: "Source", value: "False Hero on Steam (AppID 2538870)" },
     { label: "Source", value: "False Hero Steam Community Hub" },
     { label: "Fact boundary", value: "The platform list is taken from the Steam store page for AppID 2538870 and is a current-game fact as of 2026-09-22: o…" }

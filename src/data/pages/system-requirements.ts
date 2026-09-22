@@ -21,7 +21,6 @@ export const system_requirementsPage: PageContent = {
   },
   quickAnswer: "The False Hero system requirements on the Steam store page list a minimum of Windows 10 64-bit, Intel Core i5-8400, 8 GB RAM, NVIDIA GeForce GTX 970, DirectX 10, and 12 GB of SSD storage. The recommended spec is Windows 11 64-bit, Intel Core i5-10400, 16 GB RAM, NVIDIA GeForce RTX 2060, DirectX 12, and the same 12 GB SSD. Both rows confirm the title is Windows-only on PC.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero system requirements" },
     { label: "Source", value: "False Hero on Steam (AppID 2538870)" },
     { label: "Source", value: "False Hero on SteamDB" },
     { label: "Fact boundary", value: "The spec block is taken verbatim from the Steam store page for AppID 2538870 and is a current-game fact as of 2026-09…" }

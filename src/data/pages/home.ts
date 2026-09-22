@@ -21,7 +21,6 @@ export const homePage: PageContent = {
   },
   quickAnswer: "False Hero game is the new soulslike adventure from developer Torchlight Games and publisher Ytopia, listed on Steam under AppID 2538870 with a planned release date of September 22, 2026. The Steam description confirms a fast-paced loop that lets you steal your enemies' attacks and chain them into deadly combos while exploring a corrupted Land of the Gods and facing challenging boss fights. Players choose between fighting for the Gods or becoming an apostle of Death.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero game" },
     { label: "Source", value: "False Hero on Steam (AppID 2538870)" },
     { label: "Source", value: "False Hero Steam Community Hub" },
     { label: "Fact boundary", value: "Current-game facts about the title come from the Steam store page for AppID 2538870 and are authoritative as of 2026-…" }
@@ -62,7 +61,7 @@ export const homePage: PageContent = {
       type: "prose",
       heading: "Sources",
       body: "Each fact in this page is sourced from the references below. Cross-check the Steam store page for any updates.",
-      links: [{"label":"False Hero on Steam (AppID 2538870)","href":"https://store.steampowered.com/app/2538870","description":"Confirms AppID 2538870, developer Torchlight Games, publisher Ytopia, planned release September 22, 2026, Steam tags, supported languages list, system requirements block, and short description."},{"label":"False Hero Steam Community Hub","href":"https://store.steampowered.com/app/2538870/community/","description":"Surfaces official announcements, launch-day discussion, and developer posts for the False Hero game."},{"label":"False Hero on SteamDB","href":"https://steamdb.info/app/2538870/","description":"Cross-checks AppID 2538870 metadata, supported languages, and tag history for the False Hero game."},{"label":"game-check Build now brief: False Hero","href":"https://github.com/NING17-svg/game-workflow/blob/main/game-intelligence/handoffs/game-check/build-now/false-hero.md","description":"Records Popular Coming Soon rank 34, 14-day rank rise 11, and the September 22, 2026 launch window for the False Hero game."}],
+      links: [{"label":"False Hero on Steam (AppID 2538870)","href":"https://store.steampowered.com/app/2538870","description":"Confirms AppID 2538870, developer Torchlight Games, publisher Ytopia, planned release September 22, 2026, Steam tags, supported languages list, system requirements block, and short description."},{"label":"False Hero Steam Community Hub","href":"https://store.steampowered.com/app/2538870/community/","description":"Surfaces official announcements, launch-day discussion, and developer posts for the False Hero game."},{"label":"False Hero on SteamDB","href":"https://steamdb.info/app/2538870/","description":"Cross-checks AppID 2538870 metadata, supported languages, and tag history for the False Hero game."}],
     }
   ],
   faqIds: ["faq-home-1", "faq-home-2", "faq-home-3", "faq-home-4", "faq-home-5"],

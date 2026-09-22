@@ -21,7 +21,6 @@ export const gameplayPage: PageContent = {
   },
   quickAnswer: "False Hero gameplay centers on a fast-paced soulslike adventure where you steal your enemies' attacks and chain them into deadly combos. Players explore the corrupted Land of the Gods, take on challenging boss fights, and decide whether to fight for the Gods or become an apostle of Death. Specific combo lists, boss names, and difficulty tuning are not announced as of 2026-09-22, so the Steam store page remains the reference for current details.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero gameplay" },
     { label: "Fact boundary", value: "Current-game fact: The Steam store page for AppID 2538870 lists False Hero as a soulslike adventure with steal-and-ch…" }
   ],
   modules: [

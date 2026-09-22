@@ -21,7 +21,6 @@ export const steam_storePage: PageContent = {
   },
   quickAnswer: "False Hero Steam is the canonical store page at store.steampowered.com/app/2538870 with AppID 2538870, developer Torchlight Games, and publisher Ytopia. The listing confirms a planned release of September 22, 2026, a soulslike steal-and-chain combat loop set in the Land of the Gods, and a Multiple Endings choice between fighting for the Gods or becoming an apostle of Death.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero Steam" },
     { label: "Source", value: "False Hero on Steam (AppID 2538870)" },
     { label: "Source", value: "False Hero on SteamDB" },
     { label: "Fact boundary", value: "AppID 2538870, developer Torchlight Games, publisher Ytopia, the full Steam tag list, the supported languages list, t…" }

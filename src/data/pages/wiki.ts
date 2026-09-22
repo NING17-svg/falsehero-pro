@@ -21,7 +21,6 @@ export const wikiPage: PageContent = {
   },
   quickAnswer: "A False Hero wiki is not established as of 2026-09-22. The [Steam store page](https://store.steampowered.com/app/2538870) and the [Steam Community Hub](https://steamcommunity.com/app/2538870) are the first-party surfaces for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until an external False Hero wiki launches, this site's reference pages fill the wiki and FAQ role and map every fact back to the Steam listing.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero wiki" },
     { label: "Fact boundary", value: "A dedicated third-party wiki for False Hero is not established as of 2026-09-22; the Steam store page and Steam Commu…" }
   ],
   modules: [

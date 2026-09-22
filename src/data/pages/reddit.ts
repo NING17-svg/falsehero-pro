@@ -21,7 +21,6 @@ export const redditPage: PageContent = {
   },
   quickAnswer: "A False Hero Reddit community is not established as of 2026-09-22. The [Steam Community Hub](https://steamcommunity.com/app/2538870) is the launch-day discussion surface for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until a dedicated False Hero Reddit subreddit launches, Steam Community Hub threads stand in for the launch-day Reddit conversation, and broader false-protagonist subreddit threads are not this game.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero Reddit" },
     { label: "Fact boundary", value: "A dedicated False Hero Reddit subreddit is not established as of 2026-09-22; the Steam Community Hub is the only firs…" }
   ],
   modules: [

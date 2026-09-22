@@ -21,7 +21,6 @@ export const reviewPage: PageContent = {
   },
   quickAnswer: "A False Hero review is not yet published as of 2026-09-22 because the soulslike adventure releases on Sep 22 2026 and the launch window has not opened. Steam AppID 2538870 carries the only first-party coverage, and critic reviews plus Steam user reviews will appear after release day. The Steam store page is the authoritative anchor for identity facts such as developer Torchlight Games, publisher Ytopia, planned release Sep 22 2026, and the Multiple Endings framing.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero review" },
     { label: "Fact boundary", value: "Current-game fact: False Hero reviews are not yet published as of 2026-09-22. The Steam store page for AppID 2538870 …" }
   ],
   modules: [

@@ -21,7 +21,6 @@ export const charactersPage: PageContent = {
   },
   quickAnswer: "False Hero characters are not listed by name on the Steam store page as of 2026-09-22. The store description only frames the cast through the soulslike lens of the Land of the Gods and a final fight-for-the-Gods-versus-apostle-of-Death choice. Specific protagonist identity, named allies, antagonist roster, romance options, and voice cast are not announced, so the Steam Community Hub and the developer channel are the only places to track new reveals.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero characters" },
     { label: "Fact boundary", value: "Current-game fact: False Hero characters are not listed by name on the Steam store page for AppID 2538870 as of 2026-…" }
   ],
   modules: [

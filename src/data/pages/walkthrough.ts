@@ -21,7 +21,6 @@ export const walkthroughPage: PageContent = {
   },
   quickAnswer: "A complete False Hero walkthrough is not yet published as of 2026-09-22 because the soulslike adventure ships on Sep 22 2026 and no boss-by-boss coverage exists before release day. Players can track confirmed mechanics such as the steal-and-chain combat, the corrupted Land of the Gods, and boss-fight pacing through the Steam store page and the Steam Community Hub. Use this page as a hub and refresh the Steam Community Hub announcements tab on launch day for the first walkthrough-grade content.",
   keyFacts: [
-    { label: "Primary keyword", value: "False Hero walkthrough" },
     { label: "Fact boundary", value: "Current-game fact: False Hero walkthrough content is not published as of 2026-09-22. The Steam store page for AppID 2…" }
   ],
   modules: [
