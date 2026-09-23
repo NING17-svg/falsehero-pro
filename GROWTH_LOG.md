@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-24 - Demo availability and installation
+
+- Task: Replace the pre-launch 'no demo announced' stub on /demo with the actual demo status on Steam.
+- Files changed: `src/data/pages/demo.ts`, `src/data/faq.ts`, `CONTENT_INDEX.md`.
+- URLs affected: `/demo`; FAQ answers for demo availability, demo release date, and demo download location.
+- SEO/GEO changed: Demo H1, seoTitle, and metaDescription now point at Steam AppID 4702340 instead of an AppID 2538870 'not announced' framing. Demo `relatedPageIds` now cross-link to `/` and `/wiki` so the demo entry point reaches the rest of the launch surface.
+- Sources: Steam store pages for AppID 4702340 and AppID 2538870, Steam Community Hub for AppID 2538870, ixbt.games launch coverage (2026-06-05), Culture Combine review.
+
 ### 2026-09-23 - Temple Walls progression walkthrough and gameplay pointer
 
 - Task: Replace the 'no walkthrough exists yet' stub on /walkthrough with a developer-anchored Temple Walls sub-section, and add a first-30-minute pointer from /gameplay.

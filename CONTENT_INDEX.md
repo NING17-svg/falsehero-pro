@@ -18,6 +18,7 @@ hreflang, sitemap, and route-manifest validation.
 | `/gameplay` | `src/data/pages/gameplay.ts` | Guide | False Hero gameplay overview | Understand the steal-and-chain combat loop | Walkthrough / Wiki | Hub | Surfaces a first-30-minute pointer to the Temple Walls walkthrough for new launch-window players. |
 | `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
 | `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
+| `/demo` | `src/data/pages/demo.ts` | Guide | False Hero demo on Steam AppID 4702340 | Install the trial build and confirm save transfer behavior | Demo store / Full-game store / FAQ | Supporting hub | Demo IS live at AppID 4702340; replaces the pre-launch 'no demo announced' stub. |
 | `/faq` | `src/data/pages/site-pages.ts` | Guide | Template Game FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
 | `/about` | `src/data/pages/site-pages.ts` | Utility | about Template Game Guide | Trust and editorial policy | Contact | Trust | Explain unofficial status and sourcing rules. |
 | `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
@@ -33,7 +34,7 @@ hreflang, sitemap, and route-manifest validation.
 
 ## Content Clusters
 
-- Launch facts: `/release-date`, `/faq`
+- Launch facts: `/release-date`, `/faq`, `/demo`
 - Early-area progression: `/walkthrough`, `/gameplay` (Temple Walls Bloodspring, large-door split, Plant Knight, Death-touched door)
 - Official facts and safe guide structure: `/wiki`, `/guides`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
@@ -44,6 +45,7 @@ hreflang, sitemap, and route-manifest validation.
 - Wiki should link to guide and release pages.
 - Guides should link to wiki and release pages.
 - Release Date should link to FAQ and official sources.
+- Demo should link to the demo store page, the full-game store page, and the home/wiki hub so the entry point reaches the rest of the launch surface.
 - FAQ should include all current high-demand answer pages.
 - Walkthrough should link to the gameplay overview and the Steam Community Hub source.
 - Gameplay should link to the walkthrough for the first 30 minutes of progression.

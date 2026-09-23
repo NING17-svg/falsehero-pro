@@ -328,7 +328,7 @@ export const faqItems: FAQItem[] = [
   {
     id: "faq-demo-1",
     question: "Is there a False Hero demo?",
-    answer: "No False Hero demo is available on Steam as of 2026-09-22. The Steam listing for AppID 2538870 does not list a demo, a Playtest, or a trial download.",
+    answer: "Yes. The False Hero demo is live on Steam at AppID 4702340 (https://store.steampowered.com/app/4702340/), launched June 4 2026 by developer Torchlight Games and publisher Ytopia. It supports Windows 10/11 64-bit, Xbox, PlayStation, DualShock, and DualSense controllers, and ships the same 11-language package as the full release.",
     pageIds: ["fixed-demo-en-US"],
     category: "release",
     schemaEligible: true,
@@ -336,8 +336,8 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-demo-2",
-    question: "When will a False Hero demo release?",
-    answer: "No False Hero demo release date is announced. The full game is scheduled for Sep 22 2026 on Steam PC, and any demo build would most likely be announced through the Steam store page or the Steam Community Hub before the launch.",
+    question: "When did the False Hero demo release?",
+    answer: "The False Hero demo launched on June 4 2026 on Steam. The full game is scheduled for September 22 2026 on Steam PC (AppID 2538870), with the demo store page remaining the canonical source for build changes or post-launch patches.",
     pageIds: ["fixed-demo-en-US"],
     category: "release",
     schemaEligible: true,
@@ -345,8 +345,8 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-demo-3",
-    question: "Where can I download a False Hero demo today?",
-    answer: "There is no False Hero demo download available today. The Steam store page for AppID 2538870 is the only first-party source, and it currently shows no demo entry. Any external demo download link should be treated as unverified until the Steam listing confirms the page or the announcement.",
+    question: "Where can I download the False Hero demo today?",
+    answer: "Install it from the official Steam store page at https://store.steampowered.com/app/4702340/ while signed in to the Steam client. Any demo installer, demo crack, or demo mirror linked from outside that Steam store page should be treated as unverified until the developer confirms it on the Steam Community Hub.",
     pageIds: ["fixed-demo-en-US"],
     category: "release",
     schemaEligible: true,
