@@ -21,32 +21,32 @@ export const platformsPage: PageContent = {
     "subtitle": "See which platforms False Hero is confirmed to release on (Steam PC, PS5, Xbox, Steam Deck, macOS, Linux)",
     "ctas": [
       {
-        "label": "- False Hero release date",
+        "label": "False Hero release date",
         "href": "/release-date/"
       },
       {
-        "label": "- False Hero PC system requirements",
+        "label": "False Hero PC system requirements",
         "href": "/system-requirements/"
       },
       {
-        "label": "- False Hero Steam store page",
+        "label": "False Hero Steam store page",
         "href": "/steam/"
       }
     ]
   },
   "quickAnswer": "The platform list is narrow: Steam PC on Windows 10 64-bit and Windows 11 64-bit is the only confirmed entry, under AppID 2538870. PS5, Xbox, Steam Deck verification, Linux, macOS, and Android releases have not been announced, even though autocomplete results often pair False Hero platforms with PS5 or Android searches. Treat Steam PC as the only anchor until an official channel adds a new entry.",
   "keyFacts": [
-    {
-      "label": "Source",
-      "value": "False Hero on Steam (AppID 2538870)"
+      {
+      "label": "Confirmed",
+      "value": "Steam PC: Windows 10 64-bit, Windows 11 64-bit"
     },
     {
-      "label": "Source",
-      "value": "False Hero Steam Community Hub"
+      "label": "Steam AppID",
+      "value": "2538870"
     },
     {
-      "label": "Fact boundary",
-      "value": "The platform list is taken from the Steam store page for AppID 2538870 and is a current-game fact as of 2026-09-22: o…"
+      "label": "Not announced",
+      "value": "PS5, Xbox, Steam Deck verification, Linux, macOS, Android"
     }
   ],
   "modules": [
@@ -54,31 +54,31 @@ export const platformsPage: PageContent = {
       "id": "platforms-section-2",
       "type": "prose",
       "heading": "Which False Hero platforms are confirmed for launch?",
-      "body": ""
+      "body": "Steam PC is the only confirmed platform: Windows 10 64-bit and Windows 11 64-bit under AppID 2538870. The demo at AppID 4702340 is Windows-only as well. Everything else on the platform list is unannounced, so Steam PC is the anchor to plan around."
     },
     {
       "id": "platforms-section-3",
       "type": "prose",
       "heading": "Are PS5 or Xbox on the platform list?",
-      "body": ""
+      "body": "No. Neither PS5 nor Xbox appears on the store page's platform list, and no console version has been announced by Torchlight Games or Ytopia. Searches pairing False Hero with PS5 or Xbox pick up other titles, so treat the console question as open rather than confirmed either way."
     },
     {
       "id": "platforms-section-4",
       "type": "prose",
       "heading": "Is Steam Deck verification part of the platform list?",
-      "body": ""
+      "body": "Steam Deck verification is not part of the listing. The store page carries no verified or unsupported badge for the Deck, which is different from a listing that has been tested and marked. Without a badge there is no published statement about Deck performance, so check the store page on the day rather than assuming either result."
     },
     {
       "id": "platforms-section-5",
       "type": "prose",
       "heading": "Will Linux or macOS join the platform list?",
-      "body": ""
+      "body": "Neither Linux nor macOS is on the platform list, and no Linux or macOS build has been announced. Both spec rows are Windows-only, so even an unlisted build would be constrained by the same DirectX 10 and DirectX 12 requirements. The platform page is the place to re-check if the developer adds an entry."
     },
     {
       "id": "platforms-section-6",
       "type": "prose",
       "heading": "Will mobile versions join the platform list?",
-      "body": ""
+      "body": "No mobile version has been announced. The store page lists no Android or iOS entry, and the developer has not published a mobile release alongside the Steam listing. Autocomplete that pairs False Hero with Android refers to other titles, so the mobile question is open rather than answered."
     },
     {
       "id": "platforms-section-7",

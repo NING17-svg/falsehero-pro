@@ -38,15 +38,15 @@ export const allContentPages: PageContent[] = [
       "subtitle": "Confirm False Hero is the new soulslike adventure from Torchlight Games and Ytopia, and enter the Steam store page",
       "ctas": [
         {
-          "label": "- False Hero release date",
+          "label": "False Hero release date",
           "href": "/release-date/"
         },
         {
-          "label": "- False Hero Steam store page",
+          "label": "False Hero Steam store page",
           "href": "/steam/"
         },
         {
-          "label": "- False Hero PC system requirements",
+          "label": "False Hero PC system requirements",
           "href": "/system-requirements/"
         }
       ]
@@ -54,39 +54,51 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "False Hero game is the new soulslike adventure from developer Torchlight Games and publisher Ytopia, listed on Steam under AppID 2538870 with a planned release date of September 22, 2026. The Steam description confirms a fast-paced loop that lets you steal your enemies' attacks and chain them into deadly combos while exploring a corrupted Land of the Gods and facing challenging boss fights. Players choose between fighting for the Gods or becoming an apostle of Death.",
     "keyFacts": [
       {
-        "label": "Source",
-        "value": "False Hero on Steam (AppID 2538870)"
-      },
-      {
-        "label": "Source",
-        "value": "False Hero Steam Community Hub"
-      },
-      {
-        "label": "Fact boundary",
-        "value": "Current-game facts about the title come from the Steam store page for AppID 2538870 and are authoritative as of 2026-…"
-      }
-    ],
+      "label": "Developer",
+      "value": "Torchlight Games"
+    },
+    {
+      "label": "Publisher",
+      "value": "Ytopia"
+    },
+    {
+      "label": "Steam AppID",
+      "value": "2538870"
+    },
+    {
+      "label": "Release date",
+      "value": "September 22, 2026"
+    },
+    {
+      "label": "Platform",
+      "value": "Steam PC, Windows 10/11 64-bit"
+    },
+    {
+      "label": "Collection",
+      "value": "Ytopia Oddities Collection"
+    }
+  ],
     "modules": [
       {
-        "id": "-section-2",
+        "id": "home-section-2",
         "type": "prose",
         "heading": "What is the False Hero game about?",
-        "body": "The False Hero game is a fast-paced soulslike adventure built around a steal-and-chain combat loop. Instead of learning a fixed moveset, you take enemy attacks mid-fight and weave them into combos that match your reading of the encounter. The setting is the corrupted Land of the"
+        "body": "The False Hero game is a fast-paced soulslike adventure built around a steal-and-chain combat loop. Instead of learning a fixed moveset, you take enemy attacks mid-fight and weave them into combos that match your reading of the encounter. The setting is the corrupted Land of the Gods, and the run ends on a choice: fight for the Gods, or become an apostle of Death. The store page describes challenging boss fights as the true test of combat skill and tags the title as Multiple Endings, so the narrative question is a combat-earned branch rather than a dialogue option."
       },
       {
-        "id": "-section-3",
+        "id": "home-section-3",
         "type": "prose",
         "heading": "When does the False Hero game launch and on which platforms?",
-        "body": ""
+        "body": "The False Hero game is listed for September 22, 2026 on Steam under AppID 2538870. Steam PC is the only confirmed platform: the store page lists Windows 10 64-bit and Windows 11 64-bit, and it does not list PS5, Xbox, Steam Deck verification, Linux, macOS, or Android. No regional launch time has been published, so the Steam store page on the day is the only place a launch window becomes concrete."
       },
       {
-        "id": "-section-4",
+        "id": "home-section-4",
         "type": "prose",
         "heading": "Who is developing and publishing the False Hero game?",
-        "body": ""
+        "body": "Torchlight Games develops False Hero and Ytopia publishes it, as credited on the Steam store page for AppID 2538870. It sits in the Ytopia Oddities Collection alongside the publisher's other titles. The same developer and publisher pair is credited on the demo at AppID 4702340, so the demo and the full game are the same team."
       },
       {
-        "id": "-section-5",
+        "id": "home-section-5",
         "type": "prose",
         "heading": "What should you check before launching the False Hero game?",
         "body": "Before you boot the title on launch day, confirm your PC matches the published minimum and recommended specs, that your Steam client is up to date, and that your wishlist is active so you receive the standard launch notifications. The game lists English, German, French, Italian, Spanish (Spain and Latin America), Japanese, Korean, Portuguese (Brazil), Russian, and Simplified Chinese across Interface, Full Audio, and Subtitles. Headphones are recommended because the difficulty tag and boss-fight focus lean on audio cues for parry and dodge timing."
@@ -140,15 +152,15 @@ export const allContentPages: PageContent[] = [
       "subtitle": "Confirm when False Hero releases on Steam and whether there is regional launch time, early-access, or console timing",
       "ctas": [
         {
-          "label": "- False Hero Steam store page",
+          "label": "False Hero Steam store page",
           "href": "/steam/"
         },
         {
-          "label": "- False Hero platforms",
+          "label": "False Hero platforms",
           "href": "/platforms/"
         },
         {
-          "label": "- False Hero review status",
+          "label": "False Hero review status",
           "href": "/review/"
         }
       ]
@@ -156,36 +168,44 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "False Hero release date is listed as September 22, 2026 on the Steam store page for AppID 2538870. There is no confirmed regional launch time, no early-access window, and no PS5 or Xbox date. If you want to play on day one, plan around the Steam launch window, leave the Steam client open, and check the store page for any pre-load announcement closer to launch.",
     "keyFacts": [
       {
-        "label": "Source",
-        "value": "False Hero on Steam (AppID 2538870)"
-      },
-      {
-        "label": "Source",
-        "value": "False Hero on SteamDB"
-      },
-      {
-        "label": "Fact boundary",
-        "value": "The Steam store page for AppID 2538870 is the authoritative source for the False Hero release date of September 22, 2…"
-      }
-    ],
+      "label": "Release date",
+      "value": "September 22, 2026"
+    },
+    {
+      "label": "Steam AppID",
+      "value": "2538870"
+    },
+    {
+      "label": "Regional launch time",
+      "value": "Not announced"
+    },
+    {
+      "label": "Early access",
+      "value": "No window announced"
+    },
+    {
+      "label": "PS5 / Xbox",
+      "value": "No date announced"
+    }
+  ],
     "modules": [
       {
         "id": "release-date-section-2",
         "type": "prose",
         "heading": "When is the launch date on Steam?",
-        "body": ""
+        "body": "The Steam store page for AppID 2538870 lists a release date of September 22, 2026. That is the only date the developer or publisher has published. No regional launch time is confirmed, so the store page on the day is what turns the date into a clock time, and SteamDB mirrors the same metadata if the listing changes."
       },
       {
         "id": "release-date-section-3",
         "type": "prose",
         "heading": "Is there an early-access or pre-launch window?",
-        "body": ""
+        "body": "No early-access or pre-launch window has been announced. The store page lists a single release date with no early-access flag, and no Steam Community Hub thread from Torchlight Games announces one. Treat September 22, 2026 as the full release rather than the start of an early-access period."
       },
       {
         "id": "release-date-section-4",
         "type": "prose",
         "heading": "Will the launch differ on PS5 or Xbox?",
-        "body": ""
+        "body": "There is no PS5 or Xbox date to differ from, because neither console is on the platform list. Steam PC on Windows is the only confirmed entry, and no console version has been announced by either the developer or the publisher. If a console release is added later, the Steam store page and the Ytopia publisher channel are where it would be announced first."
       },
       {
         "id": "release-date-section-5",
@@ -233,15 +253,15 @@ export const allContentPages: PageContent[] = [
       "subtitle": "Open the False Hero Steam store page and confirm Steam-specific facts (AppID, developer, publisher, tags, languages)",
       "ctas": [
         {
-          "label": "- False Hero release date",
+          "label": "False Hero release date",
           "href": "/release-date/"
         },
         {
-          "label": "- False Hero PC system requirements",
+          "label": "False Hero PC system requirements",
           "href": "/system-requirements/"
         },
         {
-          "label": "- False Hero platforms",
+          "label": "False Hero platforms",
           "href": "/platforms/"
         }
       ]
@@ -249,42 +269,54 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "False Hero Steam is the canonical store page at store.steampowered.com/app/2538870 with AppID 2538870, developer Torchlight Games, and publisher Ytopia. The listing confirms a planned release of September 22, 2026, a soulslike steal-and-chain combat loop set in the Land of the Gods, and a Multiple Endings choice between fighting for the Gods or becoming an apostle of Death.",
     "keyFacts": [
       {
-        "label": "Source",
-        "value": "False Hero on Steam (AppID 2538870)"
-      },
-      {
-        "label": "Source",
-        "value": "False Hero on SteamDB"
-      },
-      {
-        "label": "Fact boundary",
-        "value": "AppID 2538870, developer Torchlight Games, publisher Ytopia, the full Steam tag list, the supported languages list, t…"
-      }
-    ],
+      "label": "Steam AppID",
+      "value": "2538870"
+    },
+    {
+      "label": "Store URL",
+      "value": "store.steampowered.com/app/2538870"
+    },
+    {
+      "label": "Developer",
+      "value": "Torchlight Games"
+    },
+    {
+      "label": "Publisher",
+      "value": "Ytopia"
+    },
+    {
+      "label": "Tags",
+      "value": "Singleplayer, Souls-like, Dark Fantasy, Multiple Endings, Difficult"
+    },
+    {
+      "label": "Languages",
+      "value": "11, including Simplified Chinese"
+    }
+  ],
     "modules": [
       {
         "id": "steam-section-2",
         "type": "prose",
         "heading": "What is the AppID and store URL?",
-        "body": ""
+        "body": "The Steam AppID is 2538870, and the store page is at https://store.steampowered.com/app/2538870. That AppID anchors every other page on this site: the platform list, the spec block, the tag list, and the language list are all read from that one listing. The demo is a separate listing at AppID 4702340."
       },
       {
         "id": "steam-section-3",
         "type": "prose",
         "heading": "Who developed and published the title on Steam?",
-        "body": ""
+        "body": "Torchlight Games is the developer and Ytopia is the publisher, both credited on the store page for AppID 2538870. The same pair is credited on the demo listing, and the title is part of the Ytopia Oddities Collection. When a search result names a different studio, it is not describing this release."
       },
       {
         "id": "steam-section-4",
         "type": "prose",
         "heading": "What tags describe the False Hero Steam listing?",
-        "body": ""
+        "body": "The store page tags False Hero as Singleplayer, Souls-like, Dark Fantasy, Multiple Endings, and Difficult. Singleplayer and Multiple Endings are the two that carry real information: the first is the mode designation, and the second matches the fight-for-the-Gods-versus-apostle-of-Death choice in the description. The other three describe genre and tone. Tags change as the listing is updated, so re-read them on the store page rather than trusting a cached copy."
       },
       {
         "id": "steam-section-5",
         "type": "prose",
         "heading": "Which languages are supported on the store page?",
-        "body": ""
+        "body": "The store page lists 11 languages, and the demo ships the same set: English, French, Italian, German, Spanish (Spain), Spanish (Latin America), Japanese, Korean, Portuguese (Brazil), Russian, and Simplified Chinese. Because the demo and the full game carry the same language package, the demo is a fair test of whether the interface suits you."
       },
       {
         "id": "steam-section-6",
@@ -333,15 +365,15 @@ export const allContentPages: PageContent[] = [
       "subtitle": "Check whether my PC meets the minimum and recommended system requirements for False Hero",
       "ctas": [
         {
-          "label": "- False Hero platforms",
+          "label": "False Hero platforms",
           "href": "/platforms/"
         },
         {
-          "label": "- False Hero Steam store page",
+          "label": "False Hero Steam store page",
           "href": "/steam/"
         },
         {
-          "label": "- False Hero gameplay",
+          "label": "False Hero gameplay",
           "href": "/gameplay/"
         }
       ]
@@ -349,42 +381,46 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "The False Hero system requirements on the Steam store page list a minimum of Windows 10 64-bit, Intel Core i5-8400, 8 GB RAM, NVIDIA GeForce GTX 970, DirectX 10, and 12 GB of SSD storage. The recommended spec is Windows 11 64-bit, Intel Core i5-10400, 16 GB RAM, NVIDIA GeForce RTX 2060, DirectX 12, and the same 12 GB SSD. Both rows confirm the title is Windows-only on PC.",
     "keyFacts": [
       {
-        "label": "Source",
-        "value": "False Hero on Steam (AppID 2538870)"
-      },
-      {
-        "label": "Source",
-        "value": "False Hero on SteamDB"
-      },
-      {
-        "label": "Fact boundary",
-        "value": "The spec block is taken verbatim from the Steam store page for AppID 2538870 and is a current-game fact as of 2026-09…"
-      }
-    ],
+      "label": "Minimum",
+      "value": "Windows 10 64-bit, i5-8400, 8 GB RAM, GTX 970, DirectX 10"
+    },
+    {
+      "label": "Recommended",
+      "value": "Windows 11 64-bit, i5-10400, 16 GB RAM, RTX 2060, DirectX 12"
+    },
+    {
+      "label": "Storage",
+      "value": "12 GB SSD in both tiers"
+    },
+    {
+      "label": "Sound card",
+      "value": "Not listed in either tier"
+    }
+  ],
     "modules": [
       {
         "id": "system-requirements-section-2",
         "type": "prose",
         "heading": "What does the False Hero system requirements block list?",
-        "body": "The False Hero system requirements blo"
+        "body": "The minimum row lists Windows 10 64-bit, an Intel Core i5-8400, 8 GB of RAM, an NVIDIA GeForce GTX 970, DirectX 10, and 12 GB of SSD storage. The recommended row raises each of those: Windows 11 64-bit, an Intel Core i5-10400, 16 GB of RAM, an NVIDIA GeForce RTX 2060, DirectX 12, and the same 12 GB SSD. Both rows are Windows-only, which is why the platform page lists no macOS or Linux entry."
       },
       {
         "id": "system-requirements-section-3",
         "type": "prose",
         "heading": "Will my laptop pass the spec block?",
-        "body": ""
+        "body": "Compare your machine against the recommended row rather than the minimum one if you can. The minimum is an Intel Core i5-8400 with 8 GB of RAM and a GeForce GTX 970, and the recommended is an i5-10400 with 16 GB and a GeForce RTX 2060. A laptop with a mobile GPU from the minimum's era will usually clear the CPU and RAM but sit below the recommended card, and the gap matters more here than usual because the store page also tags the game as Difficult. If you are between the rows, treat the recommended tier as the one to buy for."
       },
       {
         "id": "system-requirements-section-4",
         "type": "prose",
         "heading": "How much storage does the spec block require?",
-        "body": ""
+        "body": "Both tiers ask for 12 GB of SSD storage, so the requirement does not change with the tier. The store page specifies SSD rather than a plain disk, and the same figure applies whether you are buying the full game or running the demo, which is a first-chapter build."
       },
       {
         "id": "system-requirements-section-5",
         "type": "prose",
         "heading": "Does the spec block mention a sound card?",
-        "body": ""
+        "body": "No. Neither the minimum nor the recommended row lists a sound card, and the DirectX figures given are 10 for minimum and 12 for recommended. That is the whole of what the store page publishes on the subject, so it is worth re-reading the spec block before launch in case the developer has added one."
       },
       {
         "id": "system-requirements-section-6",
@@ -432,15 +468,15 @@ export const allContentPages: PageContent[] = [
       "subtitle": "See which platforms False Hero is confirmed to release on (Steam PC, PS5, Xbox, Steam Deck, macOS, Linux)",
       "ctas": [
         {
-          "label": "- False Hero release date",
+          "label": "False Hero release date",
           "href": "/release-date/"
         },
         {
-          "label": "- False Hero PC system requirements",
+          "label": "False Hero PC system requirements",
           "href": "/system-requirements/"
         },
         {
-          "label": "- False Hero Steam store page",
+          "label": "False Hero Steam store page",
           "href": "/steam/"
         }
       ]
@@ -448,48 +484,48 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "The platform list is narrow: Steam PC on Windows 10 64-bit and Windows 11 64-bit is the only confirmed entry, under AppID 2538870. PS5, Xbox, Steam Deck verification, Linux, macOS, and Android releases have not been announced, even though autocomplete results often pair False Hero platforms with PS5 or Android searches. Treat Steam PC as the only anchor until an official channel adds a new entry.",
     "keyFacts": [
       {
-        "label": "Source",
-        "value": "False Hero on Steam (AppID 2538870)"
-      },
-      {
-        "label": "Source",
-        "value": "False Hero Steam Community Hub"
-      },
-      {
-        "label": "Fact boundary",
-        "value": "The platform list is taken from the Steam store page for AppID 2538870 and is a current-game fact as of 2026-09-22: o…"
-      }
-    ],
+      "label": "Confirmed",
+      "value": "Steam PC: Windows 10 64-bit, Windows 11 64-bit"
+    },
+    {
+      "label": "Steam AppID",
+      "value": "2538870"
+    },
+    {
+      "label": "Not announced",
+      "value": "PS5, Xbox, Steam Deck verification, Linux, macOS, Android"
+    }
+  ],
     "modules": [
       {
         "id": "platforms-section-2",
         "type": "prose",
         "heading": "Which False Hero platforms are confirmed for launch?",
-        "body": ""
+        "body": "Steam PC is the only confirmed platform: Windows 10 64-bit and Windows 11 64-bit under AppID 2538870. The demo at AppID 4702340 is Windows-only as well. Everything else on the platform list is unannounced, so Steam PC is the anchor to plan around."
       },
       {
         "id": "platforms-section-3",
         "type": "prose",
         "heading": "Are PS5 or Xbox on the platform list?",
-        "body": ""
+        "body": "No. Neither PS5 nor Xbox appears on the store page's platform list, and no console version has been announced by Torchlight Games or Ytopia. Searches pairing False Hero with PS5 or Xbox pick up other titles, so treat the console question as open rather than confirmed either way."
       },
       {
         "id": "platforms-section-4",
         "type": "prose",
         "heading": "Is Steam Deck verification part of the platform list?",
-        "body": ""
+        "body": "Steam Deck verification is not part of the listing. The store page carries no verified or unsupported badge for the Deck, which is different from a listing that has been tested and marked. Without a badge there is no published statement about Deck performance, so check the store page on the day rather than assuming either result."
       },
       {
         "id": "platforms-section-5",
         "type": "prose",
         "heading": "Will Linux or macOS join the platform list?",
-        "body": ""
+        "body": "Neither Linux nor macOS is on the platform list, and no Linux or macOS build has been announced. Both spec rows are Windows-only, so even an unlisted build would be constrained by the same DirectX 10 and DirectX 12 requirements. The platform page is the place to re-check if the developer adds an entry."
       },
       {
         "id": "platforms-section-6",
         "type": "prose",
         "heading": "Will mobile versions join the platform list?",
-        "body": ""
+        "body": "No mobile version has been announced. The store page lists no Android or iOS entry, and the developer has not published a mobile release alongside the Steam listing. Autocomplete that pairs False Hero with Android refers to other titles, so the mobile question is open rather than answered."
       },
       {
         "id": "platforms-section-7",
@@ -550,14 +586,26 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "False Hero gameplay centers on a fast-paced soulslike adventure where you steal your enemies' attacks and chain them into deadly combos. Players explore the corrupted Land of the Gods, take on challenging boss fights, and decide whether to fight for the Gods or become an apostle of Death. Specific combo lists, boss names, and difficulty tuning are not announced, so the Steam store page remains the reference for current details. New launch-window players who want a route for the first area can start at the [Temple Walls progression walkthrough](/walkthrough/).",
     "keyFacts": [
       {
-        "label": "Fact boundary",
-        "value": "Current-game fact: The Steam store page for AppID 2538870 lists False Hero as a soulslike adventure with steal-and-chain combat in the corrupted Land of the Gods; specific combo lists, boss names, and difficulty tuning are not announced as of 2026-09-23."
-      },
-      {
-        "label": "First 30 minutes",
-        "value": "The Temple Walls progression walkthrough covers the Bloodspring drop, the large-door left/right split, the Plant Knight patrol, and the Death-touched door trigger, all anchored to the developer's Steam Community Hub reply."
-      }
-    ],
+      "label": "Combat",
+      "value": "Steal-and-chain: take an enemy's attack and chain it back as your own combo"
+    },
+    {
+      "label": "Setting",
+      "value": "The corrupted Land of the Gods"
+    },
+    {
+      "label": "Boss fights",
+      "value": "Challenging; no boss named and no difficulty tuning announced"
+    },
+    {
+      "label": "Ending choice",
+      "value": "Fight for the Gods, or become an apostle of Death"
+    },
+    {
+      "label": "First 30 minutes",
+      "value": "The Temple Walls gate is the only progression the developer has documented"
+    }
+  ],
     "modules": [
       {
         "id": "gameplay-section-2",
@@ -576,13 +624,13 @@ export const allContentPages: PageContent[] = [
         "id": "gameplay-section-4",
         "type": "prose",
         "heading": "The Corrupted Land Of The Gods Setting",
-        "body": ""
+        "body": "The setting is the corrupted Land of the Gods, named in the Steam description and the frame the store page uses for the whole title. The same description lists the kingdom of Wisdom, lush swamps, chilling ruins, ancient cities, and the Labyrinth of Death as later regions. Their order, the gates between them, and what each one contains are not published, so the region names are the furthest the store page goes. The walkthrough page covers the one gate the developer has documented in public, at the Temple Walls."
       },
       {
         "id": "gameplay-section-5",
         "type": "prose",
         "heading": "Boss Fights And Combat Pacing",
-        "body": ""
+        "body": "The store description promises challenging boss fights and calls them the true test of your combat skills, and the listing tags the game as Difficult. Beyond that, no boss is named, no fight order is published, and no difficulty tuning has been announced. The one encounter the developer has described publicly is the Plant Knight patrol inside the Temple Walls gate, which the walkthrough page covers. Treat the rest of the boss list as undocumented until the store page or the Steam Community Hub changes."
       },
       {
         "id": "gameplay-section-6",
@@ -638,10 +686,22 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "False Hero characters are not listed by name on the Steam store page. The store description only frames the cast through the soulslike lens of the Land of the Gods and a final fight-for-the-Gods-versus-apostle-of-Death choice. Specific protagonist identity, named allies, antagonist roster, romance options, and voice cast are not announced, so the Steam Community Hub and the developer channel are the only places to track new reveals.",
     "keyFacts": [
       {
-        "label": "Fact boundary",
-        "value": "Current-game fact: False Hero characters are not listed by name on the Steam store page for AppID 2538870 as of 2026-…"
-      }
-    ],
+      "label": "Named cast",
+      "value": "None listed on the Steam store page"
+    },
+    {
+      "label": "Confirmed framing",
+      "value": "Apostle of Death branching choice, Multiple Endings tag"
+    },
+    {
+      "label": "Not announced",
+      "value": "Protagonist, allies, antagonists, romance options, voice cast"
+    },
+    {
+      "label": "Where to watch",
+      "value": "Steam Community Hub for AppID 2538870, then the Ytopia publisher channel"
+    }
+  ],
     "modules": [
       {
         "id": "characters-section-2",
@@ -653,13 +713,13 @@ export const allContentPages: PageContent[] = [
         "id": "characters-section-3",
         "type": "prose",
         "heading": "Why The Cast Is Still A Mystery",
-        "body": ""
+        "body": "Because the cast has not been published, not because it is hidden. The store page frames False Hero through its setting and its ending choice rather than through a roster: the corrupted Land of the Gods on one side, and the decision to fight for the Gods or become an apostle of Death on the other. A soulslike that sells its characters through the world they act in is not unusual, and the Multiple Endings tag suggests the cast is partly a function of which ending you reach. No protagonist name, ally, antagonist, or romance option is listed."
       },
       {
         "id": "characters-section-4",
         "type": "prose",
         "heading": "What Players Should Watch For Updates",
-        "body": ""
+        "body": "The Steam Community Hub for AppID 2538870 is where a developer announcement about the cast would land first, followed by the Ytopia publisher channel. The store page is the second place to watch, because a description edit is how a new name or ending usually reaches the listing. The tags Singleplayer, Souls-like, Dark Fantasy, and Multiple Endings are the cheapest way to confirm that a result has drifted onto a different game, and the disambiguation module on this page covers the noise those searches attract."
       },
       {
         "id": "characters-section-5",
@@ -856,10 +916,22 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "A False Hero review is not yet published because the soulslike adventure releases on Sep 22 2026 and the launch window has not opened. Steam AppID 2538870 carries the only first-party coverage, and critic reviews plus Steam user reviews will appear after release day. The Steam store page is the authoritative anchor for identity facts such as developer Torchlight Games, publisher Ytopia, planned release Sep 22 2026, and the Multiple Endings framing.",
     "keyFacts": [
       {
-        "label": "Fact boundary",
-        "value": "Current-game fact: False Hero reviews are not yet published as of 2026-09-22. The Steam store page for AppID 2538870 …"
-      }
-    ],
+      "label": "Full-game reviews",
+      "value": "Not published as of September 22, 2026"
+    },
+    {
+      "label": "First-party surface",
+      "value": "Steam store page, AppID 2538870"
+    },
+    {
+      "label": "Critic reviews",
+      "value": "Not out; the launch window had not opened"
+    },
+    {
+      "label": "Demo reception",
+      "value": "266 user reviews at 94% positive on AppID 4702340, the demo only"
+    }
+  ],
     "modules": [
       {
         "id": "review-section-2",
@@ -871,13 +943,13 @@ export const allContentPages: PageContent[] = [
         "id": "review-section-3",
         "type": "prose",
         "heading": "Why Critic Reviews Are Not Out Yet",
-        "body": ""
+        "body": "The release date is September 22, 2026, and the launch window had not opened as of the September 22, 2026 research pass, so no critic had the game to play. That is the whole reason: there is no embargo lift and no preview build in circulation for the full game. The demo at AppID 4702340 has been out since June 4, 2026, so demo coverage can exist before critic coverage of the full game does."
       },
       {
         "id": "review-section-4",
         "type": "prose",
         "heading": "Steam User Reviews And Launch-Day Reception",
-        "body": ""
+        "body": "The Steam store page for AppID 2538870 is where the user-review curve appears, and it was still empty of full-game reviews as of September 22, 2026. The one reception figure this site can quote belongs to the demo, not the full game: 266 user reviews at 94% positive on AppID 4702340. Do not read that as a review score for the release, because the demo is a first-chapter build with a different audience. Re-read the full-game store page on launch day for the first published reviews."
       },
       {
         "id": "review-section-5",
@@ -961,12 +1033,7 @@ export const allContentPages: PageContent[] = [
       }
     ],
     "modules": [
-      {
-        "id": "demo-section-1",
-        "type": "prose",
-        "heading": "Quick Answer",
-        "body": "The False Hero demo is live on Steam at AppID 4702340, launched June 4 2026 by developer Torchlight Games and publisher Ytopia. It runs on Windows 10/11 64-bit with full controller support (Xbox, PlayStation, DualShock, DualSense) and ships the same 11-language package as the full game. The research snapshot recorded 266 user reviews at 94% positive; treat demo save transfer to the full release as unconfirmed until the developer posts a confirmation on the Steam Community Hub. Use the demo store page (https://store.steampowered.com/app/4702340/) as the canonical source; the full-game store page (https://store.steampowered.com/app/2538870/False_Hero/) carries the matching metadata for cross-checks."
-      },
+      
       {
         "id": "demo-section-2",
         "type": "data-table",
@@ -1123,10 +1190,18 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "A False Hero wiki is not established. The [Steam store page](https://store.steampowered.com/app/2538870) and the [Steam Community Hub](https://steamcommunity.com/app/2538870) are the first-party surfaces for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until an external False Hero wiki launches, this site's reference pages fill the wiki and FAQ role and map every fact back to the Steam listing.",
     "keyFacts": [
       {
-        "label": "Fact boundary",
-        "value": "A dedicated third-party wiki for False Hero is not established as of 2026-09-22; the Steam store page and Steam Commu…"
-      }
-    ],
+      "label": "Third-party wiki",
+      "value": "Not established as of September 22, 2026"
+    },
+    {
+      "label": "First-party sources",
+      "value": "Steam store page and Steam Community Hub, AppID 2538870"
+    },
+    {
+      "label": "What this site covers",
+      "value": "Reference pages standing in for the wiki, each fact mapped to its source"
+    }
+  ],
     "modules": [
       {
         "id": "wiki-section-2",
@@ -1138,13 +1213,13 @@ export const allContentPages: PageContent[] = [
         "id": "wiki-section-3",
         "type": "prose",
         "heading": "First-Party Sources For False Hero Lore And Mechanics",
-        "body": "The Steam store page at https://store.steampowered.com/app/2538870 and the"
+        "body": "The Steam store page at https://store.steampowered.com/app/2538870 and the Steam Community Hub at https://steamcommunity.com/app/2538870 are the two first-party surfaces for False Hero. The store page carries the description, the tag list, the language list, the spec block, and the release date; the Community Hub carries the developer's answers, including the Temple Walls progression reply. SteamDB mirrors the store metadata and is a useful secondary check on any of it. Everything this site states maps back to one of those, and where a fact is missing from all of them, the pages here say so rather than filling the gap."
       },
       {
         "id": "wiki-section-4",
         "type": "prose",
         "heading": "What A Future False Hero Wiki Could Cover",
-        "body": ""
+        "body": "A False Hero wiki would have the same problem this site has: most of what a wiki would hold is not published. The store description names the regions -- the corrupted Land of the Gods, the kingdom of Wisdom, lush swamps, chilling ruins, ancient cities, and the Labyrinth of Death -- without ordering them or giving the gates between them. The developer's Temple Walls reply is the only documented progression gate, and no boss is named. So the material a wiki would fill in is the region order, the gate conditions, the boss list, and the ending branches, and none of it is available to copy yet."
       },
       {
         "id": "wiki-section-5",
@@ -1196,10 +1271,18 @@ export const allContentPages: PageContent[] = [
     "quickAnswer": "A False Hero Reddit community is not established. The [Steam Community Hub](https://steamcommunity.com/app/2538870) is the launch-day discussion surface for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until a dedicated False Hero Reddit subreddit launches, Steam Community Hub threads stand in for the launch-day Reddit conversation, and broader false-protagonist subreddit threads are not this game.",
     "keyFacts": [
       {
-        "label": "Fact boundary",
-        "value": "A dedicated False Hero Reddit subreddit is not established as of 2026-09-22; the Steam Community Hub is the only firs…"
-      }
-    ],
+      "label": "Dedicated subreddit",
+      "value": "Not established as of September 22, 2026"
+    },
+    {
+      "label": "Discussion surface",
+      "value": "Steam Community Hub, AppID 2538870"
+    },
+    {
+      "label": "Developer threads",
+      "value": "Temple Walls progression reply is the only public developer post so far"
+    }
+  ],
     "modules": [
       {
         "id": "reddit-section-2",
@@ -1211,13 +1294,13 @@ export const allContentPages: PageContent[] = [
         "id": "reddit-section-3",
         "type": "prose",
         "heading": "Launch-Day Threads On The Steam Community Hub",
-        "body": ""
+        "body": "The Steam Community Hub for AppID 2538870 is the launch-day thread surface, at https://steamcommunity.com/app/2538870. The developer already uses it: Torchlight Games replied on the thread 'Need Help Progressing from Temple Walls' with the Bloodspring drop, the large-door left/right split, the Plant Knight patrol, and the Death-touched door trigger. That reply is the template for what a launch-day thread looks like here -- a question from a player, answered by the developer in public."
       },
       {
         "id": "reddit-section-4",
         "type": "prose",
         "heading": "What A Future False Hero Reddit Subreddit Could Cover",
-        "body": ""
+        "body": "The same material a wiki would hold, and with the same gap. A subreddit would carry the region order, the gate conditions, the boss list, the ending branches, and the builds people are running, and of those only the Temple Walls gate is documented anywhere in public. So a False Hero subreddit would start as a Steam Community Hub mirror and become useful once the developer publishes more. Until then the Hub threads carry the conversation, and the other false-hero spaces on Reddit are not this game."
       },
       {
         "id": "reddit-section-5",

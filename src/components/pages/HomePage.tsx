@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { theme } from "@/data/theme";
 import { getLocaleUiLabels } from "@/lib/localization";
 import { getFaqsForPage, getRecentUpdates, getRelatedPages } from "@/lib/content";
+import { renderInlineMarkdown } from "@/lib/markdown";
 import { collectionPageSchema, faqSchema, websiteSchema } from "@/lib/schema";
 import type { PageContent } from "@/types/content";
 
@@ -29,7 +30,7 @@ export function HomePage({ page }: { page: PageContent }) {
       <JsonLd data={faqSchema(faqs)} />
       <PageHero page={page} priority />
       <section className="home-summary">
-        <p className="quick-answer">{page.quickAnswer}</p>
+        <p className="quick-answer">{renderInlineMarkdown(page.quickAnswer)}</p>
         <KeyFacts facts={page.keyFacts} />
       </section>
       <AdSlot placement="responsive-banner" />

@@ -6,7 +6,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
-## Change Log
+### 2026-10-01 - Authored copy filled in and Markdown rendered everywhere it is displayed
+
+- Task: Write the missing module bodies and fold states from each page's own facts, and stop authored Markdown from being printed as literal text in the hero, the Quick Answer, the status callout and the FAQ answers.
+- Filled in: 26 module bodies that shipped empty, and 2 prose bodies that ended mid-sentence. Every sentence comes from a fact the same page already states (its own quick answer, meta description, key facts or a sibling module); where a value is genuinely not announced, the body says so instead of guessing. 10 pages had their Key Facts replaced with real facts, 6 CTA labels lost their authoring hyphens, 8 homepage module ids were namespaced, and the duplicate Quick Answer module on `/demo` was removed.
+- Rendering changed: `StatusCallout`, `HomePage`, `HubPage`, `WorkspacePage`, `PageHero` and `FAQBlock` now render through `renderInlineMarkdown`/`renderMarkdown`, so a link in any of those fields is a link rather than `[label](url)` text. `FAQPage` structured data uses a new `stripInlineMarkdown` so the JSON-LD answer carries the sentence instead of the link syntax. `src/lib/markdown.tsx` imports React explicitly because the static export runs the classic JSX runtime.
+- URLs affected: None. No title, H1, canonical, page type, keyword, CTA or internal-link role changed, so `CONTENT_INDEX.md` is not revised.
+- Verification: `npm run verify` (typecheck, lint, template, content, IndexNow, static export, rendered SEO for 17 pages / 17 sitemap URLs / 17 manifest routes) passes, and a sweep of the 19 exported HTML files, excluding the React flight payload, finds no unrendered Markdown link, bold marker or internal path.
 
 ### 2026-10-01 - Public page render-quality repair
 

@@ -6,6 +6,7 @@ import { PageHero } from "@/components/pages/PageHero";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { theme } from "@/data/theme";
 import { getFaqsForPage, getRelatedPages } from "@/lib/content";
+import { renderInlineMarkdown } from "@/lib/markdown";
 import {
   articleSchema,
   breadcrumbSchema,
@@ -42,7 +43,7 @@ export function WorkspacePage({
       <div className="workspace-region" data-variant={variant}>
         {workspace ?? (
           <section className="workspace-fallback" aria-label="Tool workspace">
-            <p>{page.quickAnswer}</p>
+            <p>{renderInlineMarkdown(page.quickAnswer)}</p>
           </section>
         )}
       </div>

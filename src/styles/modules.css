@@ -280,6 +280,44 @@
   }
 }
 
+/*
+ * A callout body is authored as Markdown and rendered into headings, paragraphs,
+ * lists and tables, so the elements the renderer emits need the same spacing a
+ * single <p> got, plus indentation for lists and a legible box for `code`.
+ */
+.status-callout ul,
+.status-callout ol {
+  margin: 0;
+  padding-left: 1.4em;
+  display: grid;
+  gap: 8px;
+}
+
+.status-callout code {
+  padding: 1px 5px;
+  border: var(--border-width) solid var(--line);
+  border-radius: 4px;
+  background: var(--surface-2);
+  font-size: 0.92em;
+}
+
+.status-callout table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.status-callout th,
+.status-callout td {
+  padding: 8px 10px;
+  border: var(--border-width) solid var(--line);
+  text-align: left;
+}
+
+.status-callout th {
+  background: var(--surface-2);
+  font-weight: 700;
+}
+
 .prose-body > * + * {
   margin-top: 0.75em;
 }

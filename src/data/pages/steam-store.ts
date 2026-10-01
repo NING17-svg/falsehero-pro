@@ -21,32 +21,44 @@ export const steam_storePage: PageContent = {
     "subtitle": "Open the False Hero Steam store page and confirm Steam-specific facts (AppID, developer, publisher, tags, languages)",
     "ctas": [
       {
-        "label": "- False Hero release date",
+        "label": "False Hero release date",
         "href": "/release-date/"
       },
       {
-        "label": "- False Hero PC system requirements",
+        "label": "False Hero PC system requirements",
         "href": "/system-requirements/"
       },
       {
-        "label": "- False Hero platforms",
+        "label": "False Hero platforms",
         "href": "/platforms/"
       }
     ]
   },
   "quickAnswer": "False Hero Steam is the canonical store page at store.steampowered.com/app/2538870 with AppID 2538870, developer Torchlight Games, and publisher Ytopia. The listing confirms a planned release of September 22, 2026, a soulslike steal-and-chain combat loop set in the Land of the Gods, and a Multiple Endings choice between fighting for the Gods or becoming an apostle of Death.",
   "keyFacts": [
-    {
-      "label": "Source",
-      "value": "False Hero on Steam (AppID 2538870)"
+      {
+      "label": "Steam AppID",
+      "value": "2538870"
     },
     {
-      "label": "Source",
-      "value": "False Hero on SteamDB"
+      "label": "Store URL",
+      "value": "store.steampowered.com/app/2538870"
     },
     {
-      "label": "Fact boundary",
-      "value": "AppID 2538870, developer Torchlight Games, publisher Ytopia, the full Steam tag list, the supported languages list, t…"
+      "label": "Developer",
+      "value": "Torchlight Games"
+    },
+    {
+      "label": "Publisher",
+      "value": "Ytopia"
+    },
+    {
+      "label": "Tags",
+      "value": "Singleplayer, Souls-like, Dark Fantasy, Multiple Endings, Difficult"
+    },
+    {
+      "label": "Languages",
+      "value": "11, including Simplified Chinese"
     }
   ],
   "modules": [
@@ -54,25 +66,25 @@ export const steam_storePage: PageContent = {
       "id": "steam-section-2",
       "type": "prose",
       "heading": "What is the AppID and store URL?",
-      "body": ""
+      "body": "The Steam AppID is 2538870, and the store page is at https://store.steampowered.com/app/2538870. That AppID anchors every other page on this site: the platform list, the spec block, the tag list, and the language list are all read from that one listing. The demo is a separate listing at AppID 4702340."
     },
     {
       "id": "steam-section-3",
       "type": "prose",
       "heading": "Who developed and published the title on Steam?",
-      "body": ""
+      "body": "Torchlight Games is the developer and Ytopia is the publisher, both credited on the store page for AppID 2538870. The same pair is credited on the demo listing, and the title is part of the Ytopia Oddities Collection. When a search result names a different studio, it is not describing this release."
     },
     {
       "id": "steam-section-4",
       "type": "prose",
       "heading": "What tags describe the False Hero Steam listing?",
-      "body": ""
+      "body": "The store page tags False Hero as Singleplayer, Souls-like, Dark Fantasy, Multiple Endings, and Difficult. Singleplayer and Multiple Endings are the two that carry real information: the first is the mode designation, and the second matches the fight-for-the-Gods-versus-apostle-of-Death choice in the description. The other three describe genre and tone. Tags change as the listing is updated, so re-read them on the store page rather than trusting a cached copy."
     },
     {
       "id": "steam-section-5",
       "type": "prose",
       "heading": "Which languages are supported on the store page?",
-      "body": ""
+      "body": "The store page lists 11 languages, and the demo ships the same set: English, French, Italian, German, Spanish (Spain), Spanish (Latin America), Japanese, Korean, Portuguese (Brazil), Russian, and Simplified Chinese. Because the demo and the full game carry the same language package, the demo is a fair test of whether the interface suits you."
     },
     {
       "id": "steam-section-6",

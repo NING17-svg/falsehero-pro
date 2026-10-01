@@ -32,13 +32,25 @@ export const gameplayPage: PageContent = {
   },
   "quickAnswer": "False Hero gameplay centers on a fast-paced soulslike adventure where you steal your enemies' attacks and chain them into deadly combos. Players explore the corrupted Land of the Gods, take on challenging boss fights, and decide whether to fight for the Gods or become an apostle of Death. Specific combo lists, boss names, and difficulty tuning are not announced, so the Steam store page remains the reference for current details. New launch-window players who want a route for the first area can start at the [Temple Walls progression walkthrough](/walkthrough/).",
   "keyFacts": [
+      {
+      "label": "Combat",
+      "value": "Steal-and-chain: take an enemy's attack and chain it back as your own combo"
+    },
     {
-      "label": "Fact boundary",
-      "value": "Current-game fact: The Steam store page for AppID 2538870 lists False Hero as a soulslike adventure with steal-and-chain combat in the corrupted Land of the Gods; specific combo lists, boss names, and difficulty tuning are not announced as of 2026-09-23."
+      "label": "Setting",
+      "value": "The corrupted Land of the Gods"
+    },
+    {
+      "label": "Boss fights",
+      "value": "Challenging; no boss named and no difficulty tuning announced"
+    },
+    {
+      "label": "Ending choice",
+      "value": "Fight for the Gods, or become an apostle of Death"
     },
     {
       "label": "First 30 minutes",
-      "value": "The Temple Walls progression walkthrough covers the Bloodspring drop, the large-door left/right split, the Plant Knight patrol, and the Death-touched door trigger, all anchored to the developer's Steam Community Hub reply."
+      "value": "The Temple Walls gate is the only progression the developer has documented"
     }
   ],
   "modules": [
@@ -59,13 +71,13 @@ export const gameplayPage: PageContent = {
       "id": "gameplay-section-4",
       "type": "prose",
       "heading": "The Corrupted Land Of The Gods Setting",
-      "body": ""
+      "body": "The setting is the corrupted Land of the Gods, named in the Steam description and the frame the store page uses for the whole title. The same description lists the kingdom of Wisdom, lush swamps, chilling ruins, ancient cities, and the Labyrinth of Death as later regions. Their order, the gates between them, and what each one contains are not published, so the region names are the furthest the store page goes. The walkthrough page covers the one gate the developer has documented in public, at the Temple Walls."
     },
     {
       "id": "gameplay-section-5",
       "type": "prose",
       "heading": "Boss Fights And Combat Pacing",
-      "body": ""
+      "body": "The store description promises challenging boss fights and calls them the true test of your combat skills, and the listing tags the game as Difficult. Beyond that, no boss is named, no fight order is published, and no difficulty tuning has been announced. The one encounter the developer has described publicly is the Plant Knight patrol inside the Temple Walls gate, which the walkthrough page covers. Treat the rest of the boss list as undocumented until the store page or the Steam Community Hub changes."
     },
     {
       "id": "gameplay-section-6",

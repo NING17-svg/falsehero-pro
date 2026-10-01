@@ -62,12 +62,7 @@ export const demoPage: PageContent = {
     }
   ],
   "modules": [
-    {
-      "id": "demo-section-1",
-      "type": "prose",
-      "heading": "Quick Answer",
-      "body": "The False Hero demo is live on Steam at AppID 4702340, launched June 4 2026 by developer Torchlight Games and publisher Ytopia. It runs on Windows 10/11 64-bit with full controller support (Xbox, PlayStation, DualShock, DualSense) and ships the same 11-language package as the full game. The research snapshot recorded 266 user reviews at 94% positive; treat demo save transfer to the full release as unconfirmed until the developer posts a confirmation on the Steam Community Hub. Use the demo store page (https://store.steampowered.com/app/4702340/) as the canonical source; the full-game store page (https://store.steampowered.com/app/2538870/False_Hero/) carries the matching metadata for cross-checks."
-    },
+    
     {
       "id": "demo-section-2",
       "type": "data-table",

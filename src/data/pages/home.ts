@@ -21,55 +21,67 @@ export const homePage: PageContent = {
     "subtitle": "Confirm False Hero is the new soulslike adventure from Torchlight Games and Ytopia, and enter the Steam store page",
     "ctas": [
       {
-        "label": "- False Hero release date",
+        "label": "False Hero release date",
         "href": "/release-date/"
       },
       {
-        "label": "- False Hero Steam store page",
+        "label": "False Hero Steam store page",
         "href": "/steam/"
       },
       {
-        "label": "- False Hero PC system requirements",
+        "label": "False Hero PC system requirements",
         "href": "/system-requirements/"
       }
     ]
   },
   "quickAnswer": "False Hero game is the new soulslike adventure from developer Torchlight Games and publisher Ytopia, listed on Steam under AppID 2538870 with a planned release date of September 22, 2026. The Steam description confirms a fast-paced loop that lets you steal your enemies' attacks and chain them into deadly combos while exploring a corrupted Land of the Gods and facing challenging boss fights. Players choose between fighting for the Gods or becoming an apostle of Death.",
   "keyFacts": [
-    {
-      "label": "Source",
-      "value": "False Hero on Steam (AppID 2538870)"
+      {
+      "label": "Developer",
+      "value": "Torchlight Games"
     },
     {
-      "label": "Source",
-      "value": "False Hero Steam Community Hub"
+      "label": "Publisher",
+      "value": "Ytopia"
     },
     {
-      "label": "Fact boundary",
-      "value": "Current-game facts about the title come from the Steam store page for AppID 2538870 and are authoritative as of 2026-…"
+      "label": "Steam AppID",
+      "value": "2538870"
+    },
+    {
+      "label": "Release date",
+      "value": "September 22, 2026"
+    },
+    {
+      "label": "Platform",
+      "value": "Steam PC, Windows 10/11 64-bit"
+    },
+    {
+      "label": "Collection",
+      "value": "Ytopia Oddities Collection"
     }
   ],
   "modules": [
     {
-      "id": "-section-2",
+      "id": "home-section-2",
       "type": "prose",
       "heading": "What is the False Hero game about?",
-      "body": "The False Hero game is a fast-paced soulslike adventure built around a steal-and-chain combat loop. Instead of learning a fixed moveset, you take enemy attacks mid-fight and weave them into combos that match your reading of the encounter. The setting is the corrupted Land of the"
+      "body": "The False Hero game is a fast-paced soulslike adventure built around a steal-and-chain combat loop. Instead of learning a fixed moveset, you take enemy attacks mid-fight and weave them into combos that match your reading of the encounter. The setting is the corrupted Land of the Gods, and the run ends on a choice: fight for the Gods, or become an apostle of Death. The store page describes challenging boss fights as the true test of combat skill and tags the title as Multiple Endings, so the narrative question is a combat-earned branch rather than a dialogue option."
     },
     {
-      "id": "-section-3",
+      "id": "home-section-3",
       "type": "prose",
       "heading": "When does the False Hero game launch and on which platforms?",
-      "body": ""
+      "body": "The False Hero game is listed for September 22, 2026 on Steam under AppID 2538870. Steam PC is the only confirmed platform: the store page lists Windows 10 64-bit and Windows 11 64-bit, and it does not list PS5, Xbox, Steam Deck verification, Linux, macOS, or Android. No regional launch time has been published, so the Steam store page on the day is the only place a launch window becomes concrete."
     },
     {
-      "id": "-section-4",
+      "id": "home-section-4",
       "type": "prose",
       "heading": "Who is developing and publishing the False Hero game?",
-      "body": ""
+      "body": "Torchlight Games develops False Hero and Ytopia publishes it, as credited on the Steam store page for AppID 2538870. It sits in the Ytopia Oddities Collection alongside the publisher's other titles. The same developer and publisher pair is credited on the demo at AppID 4702340, so the demo and the full game are the same team."
     },
     {
-      "id": "-section-5",
+      "id": "home-section-5",
       "type": "prose",
       "heading": "What should you check before launching the False Hero game?",
       "body": "Before you boot the title on launch day, confirm your PC matches the published minimum and recommended specs, that your Steam client is up to date, and that your wishlist is active so you receive the standard launch notifications. The game lists English, German, French, Italian, Spanish (Spain and Latin America), Japanese, Korean, Portuguese (Brazil), Russian, and Simplified Chinese across Interface, Full Audio, and Subtitles. Headphones are recommended because the difficulty tag and boss-fight focus lean on audio cues for parry and dodge timing."

@@ -28,9 +28,17 @@ export const redditPage: PageContent = {
   },
   "quickAnswer": "A False Hero Reddit community is not established. The [Steam Community Hub](https://steamcommunity.com/app/2538870) is the launch-day discussion surface for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until a dedicated False Hero Reddit subreddit launches, Steam Community Hub threads stand in for the launch-day Reddit conversation, and broader false-protagonist subreddit threads are not this game.",
   "keyFacts": [
+      {
+      "label": "Dedicated subreddit",
+      "value": "Not established as of September 22, 2026"
+    },
     {
-      "label": "Fact boundary",
-      "value": "A dedicated False Hero Reddit subreddit is not established as of 2026-09-22; the Steam Community Hub is the only firs…"
+      "label": "Discussion surface",
+      "value": "Steam Community Hub, AppID 2538870"
+    },
+    {
+      "label": "Developer threads",
+      "value": "Temple Walls progression reply is the only public developer post so far"
     }
   ],
   "modules": [
@@ -44,13 +52,13 @@ export const redditPage: PageContent = {
       "id": "reddit-section-3",
       "type": "prose",
       "heading": "Launch-Day Threads On The Steam Community Hub",
-      "body": ""
+      "body": "The Steam Community Hub for AppID 2538870 is the launch-day thread surface, at https://steamcommunity.com/app/2538870. The developer already uses it: Torchlight Games replied on the thread 'Need Help Progressing from Temple Walls' with the Bloodspring drop, the large-door left/right split, the Plant Knight patrol, and the Death-touched door trigger. That reply is the template for what a launch-day thread looks like here -- a question from a player, answered by the developer in public."
     },
     {
       "id": "reddit-section-4",
       "type": "prose",
       "heading": "What A Future False Hero Reddit Subreddit Could Cover",
-      "body": ""
+      "body": "The same material a wiki would hold, and with the same gap. A subreddit would carry the region order, the gate conditions, the boss list, the ending branches, and the builds people are running, and of those only the Temple Walls gate is documented anywhere in public. So a False Hero subreddit would start as a Steam Community Hub mirror and become useful once the developer publishes more. Until then the Hub threads carry the conversation, and the other false-hero spaces on Reddit are not this game."
     },
     {
       "id": "reddit-section-5",

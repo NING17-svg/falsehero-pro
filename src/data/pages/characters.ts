@@ -28,9 +28,21 @@ export const charactersPage: PageContent = {
   },
   "quickAnswer": "False Hero characters are not listed by name on the Steam store page. The store description only frames the cast through the soulslike lens of the Land of the Gods and a final fight-for-the-Gods-versus-apostle-of-Death choice. Specific protagonist identity, named allies, antagonist roster, romance options, and voice cast are not announced, so the Steam Community Hub and the developer channel are the only places to track new reveals.",
   "keyFacts": [
+      {
+      "label": "Named cast",
+      "value": "None listed on the Steam store page"
+    },
     {
-      "label": "Fact boundary",
-      "value": "Current-game fact: False Hero characters are not listed by name on the Steam store page for AppID 2538870 as of 2026-…"
+      "label": "Confirmed framing",
+      "value": "Apostle of Death branching choice, Multiple Endings tag"
+    },
+    {
+      "label": "Not announced",
+      "value": "Protagonist, allies, antagonists, romance options, voice cast"
+    },
+    {
+      "label": "Where to watch",
+      "value": "Steam Community Hub for AppID 2538870, then the Ytopia publisher channel"
     }
   ],
   "modules": [
@@ -44,13 +56,13 @@ export const charactersPage: PageContent = {
       "id": "characters-section-3",
       "type": "prose",
       "heading": "Why The Cast Is Still A Mystery",
-      "body": ""
+      "body": "Because the cast has not been published, not because it is hidden. The store page frames False Hero through its setting and its ending choice rather than through a roster: the corrupted Land of the Gods on one side, and the decision to fight for the Gods or become an apostle of Death on the other. A soulslike that sells its characters through the world they act in is not unusual, and the Multiple Endings tag suggests the cast is partly a function of which ending you reach. No protagonist name, ally, antagonist, or romance option is listed."
     },
     {
       "id": "characters-section-4",
       "type": "prose",
       "heading": "What Players Should Watch For Updates",
-      "body": ""
+      "body": "The Steam Community Hub for AppID 2538870 is where a developer announcement about the cast would land first, followed by the Ytopia publisher channel. The store page is the second place to watch, because a description edit is how a new name or ending usually reaches the listing. The tags Singleplayer, Souls-like, Dark Fantasy, and Multiple Endings are the cheapest way to confirm that a result has drifted onto a different game, and the disambiguation module on this page covers the noise those searches attract."
     },
     {
       "id": "characters-section-5",

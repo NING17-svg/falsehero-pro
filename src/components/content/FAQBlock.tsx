@@ -1,3 +1,4 @@
+import { renderInlineMarkdown } from "@/lib/markdown";
 import type { FAQItem } from "@/types/content";
 
 export function FAQBlock({ faqs }: { faqs: FAQItem[] }) {
@@ -12,7 +13,7 @@ export function FAQBlock({ faqs }: { faqs: FAQItem[] }) {
         {faqs.map((faq) => (
           <details key={faq.id} className="faq-item">
             <summary>{faq.question}</summary>
-            <p>{faq.answer}</p>
+            <p>{renderInlineMarkdown(faq.answer)}</p>
           </details>
         ))}
       </div>

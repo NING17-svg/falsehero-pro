@@ -1,5 +1,6 @@
 import { site } from "@/data/site";
 import { localizePath } from "@/lib/localization";
+import { stripInlineMarkdown } from "@/lib/markdown";
 import { absoluteUrl } from "@/lib/urls";
 import type { FAQItem, PageContent } from "@/types/content";
 
@@ -45,7 +46,7 @@ export function faqSchema(faqs: FAQItem[]) {
         name: faq.question,
         acceptedAnswer: {
           "@type": "Answer",
-          text: faq.answer,
+          text: stripInlineMarkdown(faq.answer),
         },
       })),
   };

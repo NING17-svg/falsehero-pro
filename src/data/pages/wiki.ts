@@ -28,9 +28,17 @@ export const wikiPage: PageContent = {
   },
   "quickAnswer": "A False Hero wiki is not established. The [Steam store page](https://store.steampowered.com/app/2538870) and the [Steam Community Hub](https://steamcommunity.com/app/2538870) are the first-party surfaces for the new Ytopia Oddities Collection soulslike from developer Torchlight Games and publisher Ytopia. Until an external False Hero wiki launches, this site's reference pages fill the wiki and FAQ role and map every fact back to the Steam listing.",
   "keyFacts": [
+      {
+      "label": "Third-party wiki",
+      "value": "Not established as of September 22, 2026"
+    },
     {
-      "label": "Fact boundary",
-      "value": "A dedicated third-party wiki for False Hero is not established as of 2026-09-22; the Steam store page and Steam Commu…"
+      "label": "First-party sources",
+      "value": "Steam store page and Steam Community Hub, AppID 2538870"
+    },
+    {
+      "label": "What this site covers",
+      "value": "Reference pages standing in for the wiki, each fact mapped to its source"
     }
   ],
   "modules": [
@@ -44,13 +52,13 @@ export const wikiPage: PageContent = {
       "id": "wiki-section-3",
       "type": "prose",
       "heading": "First-Party Sources For False Hero Lore And Mechanics",
-      "body": "The Steam store page at https://store.steampowered.com/app/2538870 and the"
+      "body": "The Steam store page at https://store.steampowered.com/app/2538870 and the Steam Community Hub at https://steamcommunity.com/app/2538870 are the two first-party surfaces for False Hero. The store page carries the description, the tag list, the language list, the spec block, and the release date; the Community Hub carries the developer's answers, including the Temple Walls progression reply. SteamDB mirrors the store metadata and is a useful secondary check on any of it. Everything this site states maps back to one of those, and where a fact is missing from all of them, the pages here say so rather than filling the gap."
     },
     {
       "id": "wiki-section-4",
       "type": "prose",
       "heading": "What A Future False Hero Wiki Could Cover",
-      "body": ""
+      "body": "A False Hero wiki would have the same problem this site has: most of what a wiki would hold is not published. The store description names the regions -- the corrupted Land of the Gods, the kingdom of Wisdom, lush swamps, chilling ruins, ancient cities, and the Labyrinth of Death -- without ordering them or giving the gates between them. The developer's Temple Walls reply is the only documented progression gate, and no boss is named. So the material a wiki would fill in is the region order, the gate conditions, the boss list, and the ending branches, and none of it is available to copy yet."
     },
     {
       "id": "wiki-section-5",

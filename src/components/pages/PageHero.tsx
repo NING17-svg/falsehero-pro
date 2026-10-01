@@ -3,6 +3,7 @@ import React from "react";
 import { AssetMedia } from "@/components/media/AssetMedia";
 import { theme } from "@/data/theme";
 import { getLocaleUiLabels } from "@/lib/localization";
+import { renderInlineMarkdown } from "@/lib/markdown";
 import type { PageContent } from "@/types/content";
 
 export function PageHero({
@@ -27,7 +28,7 @@ export function PageHero({
       <div className="hero-copy">
         {page.hero.eyebrow ? <p className="eyebrow">{page.hero.eyebrow}</p> : null}
         <h1>{page.h1}</h1>
-        <p>{page.hero.subtitle}</p>
+        <p>{renderInlineMarkdown(page.hero.subtitle)}</p>
         <p className="page-review">
           <span>{getLocaleUiLabels(page.locale).lastReviewed}:</span>{" "}
           <time dateTime={page.lastReviewed}>{page.lastReviewed}</time>

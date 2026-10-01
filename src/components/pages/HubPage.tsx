@@ -7,6 +7,7 @@ import { PageHero } from "@/components/pages/PageHero";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { theme } from "@/data/theme";
 import { getFaqsForPage, getRelatedPages } from "@/lib/content";
+import { renderInlineMarkdown } from "@/lib/markdown";
 import {
   breadcrumbSchema,
   collectionPageSchema,
@@ -29,7 +30,7 @@ export function HubPage({ page }: { page: PageContent }) {
       {faqs.length ? <JsonLd data={faqSchema(faqs)} /> : null}
       <PageHero page={page} />
       <section className="hub-summary">
-        <p className="quick-answer">{page.quickAnswer}</p>
+        <p className="quick-answer">{renderInlineMarkdown(page.quickAnswer)}</p>
         <KeyFacts facts={page.keyFacts} />
       </section>
       <AdSlot placement="responsive-banner" />

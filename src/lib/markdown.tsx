@@ -1,4 +1,6 @@
-import type { ReactNode } from "react";
+// The static build runs this module under the classic JSX runtime, so the
+// React binding has to be in scope here and not only through Next's compiler.
+import React, { type ReactNode } from "react";
 
 /**
  * Minimal Markdown renderer for guide module prose.
@@ -196,4 +198,19 @@ export function renderMarkdown(body: string): ReactNode {
       })}
     </>
   );
+}
+
+/**
+ * Flatten inline Markdown to plain text. Structured data such as FAQPage
+ * answers must carry the sentence, not the link syntax a reader would see
+ * rendered as a link.
+ */
+export function stripInlineMarkdown(text: string): string {
+  return (text ?? "")
+    .replace(/\[([^\]]+)\]\([^)\s]+\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .trim();
 }
