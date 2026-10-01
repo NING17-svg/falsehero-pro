@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "site_id": "falsehero-pro",
+  "worker": "dragonshelter-pro",
+  "domain": "falsehero.pro",
+  "repository": "NING17-svg/falsehero-pro",
+  "deployment_repository": "NING17-svg/game-guide-pool-07",
+  "marker_path": "/__deployment.json",
+  "pool_id": "guide-pool-07"
+}
